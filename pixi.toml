@@ -1,0 +1,14 @@
+[project]
+authors = ["Lucas Colley <lucas.colley8@gmail.com>"]
+channels = ["conda-forge"]
+description = "Advent of code, solved with SciPy!"
+name = "advent-of-code"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+start = "jupyter lab"
+
+[dependencies]
+jupyterlab = ">=4.3.4,<5"
+scipy = ">=1.14.1,<2"
